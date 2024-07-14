@@ -128,12 +128,16 @@ export function Feedbacks() {
 
                                 <Flex
                                     onClick={() => { carouselIndex <= 0 ? setCarouselIndex(carouselLength - 1) : setCarouselIndex(carouselIndex - 1) }}
+                                    _hover={{color:'red.400', transition:'400ms'}}
+                                    cursor={'pointer'}
                                 >
                                     <ArrowLeft />
                                 </Flex>
 
                                 <Flex
                                     onClick={() => { carouselIndex >= carouselLength - 1 ? setCarouselIndex(0) : setCarouselIndex(carouselIndex + 1) }}
+                                    _hover={{color:'red.400', transition:'400ms'}}
+                                    cursor={'pointer'}
                                 >
                                     <ArrowRight />
                                 </Flex>

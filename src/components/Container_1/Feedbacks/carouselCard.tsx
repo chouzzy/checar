@@ -69,7 +69,7 @@ export function CarouselCard(card: CardProps) {
 
                 <Flex
                     fontWeight={400}
-                    fontSize={['1rem', '1rem', '1rem', '1.125rem', '1.125rem']}
+                    fontSize='1rem'
                     fontFamily={'synonym'}
                 >
                     <Flex>
