@@ -7,33 +7,33 @@ export default class MyDocument extends Document {
          <Html>
             <Head>
                {/* <!-- HTML Meta Tags --> */}
-               <meta name="description" content="Transformando sonhos em realidade: seu passaporte para a Itália está em nossas mãos." />
+               <meta name="description" content="Sua oficina mecânica especializada em Brasília" />
                <meta name="keywords" content="dentista" />
 
                {/* <!-- Facebook Meta Tags --> */}
-               <meta property="og:url" content="https://nacionalidadeitaliana.clubedopassaporte.com/" />
+               <meta property="og:url" content="https://www.checar.com.br" />
                <meta property="og:type" content="website" />
-               <meta property="og:title" content="Transformando sonhos em realidade: seu passaporte para a Itália está em nossas mãos." />
-               <meta property="og:description" content="Somos um escritório migratório conceituado com sede em São Paulo, Lisboa e Milão. Acreditamos na desburocratização total dos processos para os nossos clientes e, por isso, cuidamos dos processos de A a Z, com intuito de conquistar a sua cidadania rapidamente e deixar todo o trabalho burocrático conosco." />
-               <meta property="og:image" content="https://nacionalidadeitaliana.clubedopassaporte.com/static/img/logo.png" />
+               <meta property="og:title" content="Sua oficina mecânica especializada em Brasília" />
+               <meta property="og:description" content="Dos reparos mais simples às soluções técnicas avançadas, estamos aqui para elevar o rendimento e a confiabilidade do seu automóvel." />
+               <meta property="og:image" content="https://www.checar.com.br/static/img/logo.png" />
                <meta name="facebook-domain-verification" content="p9o4crdziw52naiebnk8mv7mj3s7pu" />
 
                {/* <!-- Twitter Meta Tags --> */}
                <meta name="twitter:card" content="summary_large_image" />
-               <meta property="twitter:domain" content="clubedopassaporte.com" />
-               <meta property="twitter:url" content="https://nacionalidadeitaliana.clubedopassaporte.com/" />
-               <meta name="twitter:title" content="Transformando sonhos em realidade: seu passaporte para a Itália está em nossas mãos." />
-               <meta name="twitter:description" content="Somos um escritório migratório conceituado com sede em São Paulo, Lisboa e Milão. Acreditamos na desburocratização total dos processos para os nossos clientes e, por isso, cuidamos dos processos de A a Z, com intuito de conquistar a sua cidadania rapidamente e deixar todo o trabalho burocrático conosco." />
-               <meta name="twitter:image" content="https://nacionalidadeitaliana.clubedopassaporte.com/static/img/logo.png" />
+               <meta property="twitter:domain" content="checar.com" />
+               <meta property="twitter:url" content="https://www.checar.com.br" />
+               <meta name="twitter:title" content="Sua oficina mecânica especializada em Brasília" />
+               <meta name="twitter:description" content="Dos reparos mais simples às soluções técnicas avançadas, estamos aqui para elevar o rendimento e a confiabilidade do seu automóvel." />
+               <meta name="twitter:image" content="https://www.checar.com.br/static/img/logo.png" />
 
 
                <link rel="preconnect" href="https://fonts.googleapis.com" />
                <link rel="preconnect" href="https://fonts.gstatic.com" />
-               <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet"/>
+               <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet" />
 
-                  <link rel="shortcut icon" href="static/img/logo.png" />
-                  <React.Fragment>
-                     {/* <!-- Facebook Pixel Code -->
+               <link rel="shortcut icon" href="static/img/logo.png" />
+               <React.Fragment>
+                  {/* <!-- Facebook Pixel Code -->
                   <script dangerouslySetInnerHTML={{
                      __html: `!function(f,b,e,v,n,t,s)
                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -50,8 +50,8 @@ export default class MyDocument extends Document {
                      __html: `<img height="1" width="1" style="display:none"
                src="https://www.facebook.com/tr?id=1469014893670193&ev=PageView&noscript=1" />` }}
                   /> */}
-                     {/* <!-- End Facebook Pixel Code --> */}
-                     {/* <script dangerouslySetInnerHTML={{
+                  {/* <!-- End Facebook Pixel Code --> */}
+                  {/* <script dangerouslySetInnerHTML={{
                      __html: `
                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -60,7 +60,7 @@ export default class MyDocument extends Document {
                })(window,document,'script','dataLayer','GTM-NX33MD3C');
                ` }}
                   /> */}
-                  </React.Fragment>
+               </React.Fragment>
             </Head>
             <body
                style={{ backgroundColor: "#EDF2F7" }}
