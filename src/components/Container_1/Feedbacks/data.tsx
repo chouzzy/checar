@@ -13,7 +13,7 @@ export const carouselFeedbacks = [
         description: 'Edson, Neuma e equipe são top. Sou cliente!',
         date:'06/09/2023',
         image:'/static/img/container_1/feedbacks/personas/face-2.png',
-        stars:4
+        stars:5
     },
     {
         id:3,
@@ -29,6 +29,6 @@ export const carouselFeedbacks = [
         description: 'Excelente qualidade!',
         date:'24/03/1996',
         image:'/static/img/container_1/feedbacks/personas/face-3.png',
-        stars:3
+        stars:5
     },
 ]
