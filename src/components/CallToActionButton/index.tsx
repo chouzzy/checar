@@ -10,7 +10,7 @@ interface CallToActionButtonProps {
   width?: string,
   height?: string,
   arrowSize?: number,
-  mx?:string,
+  mx?: string,
   title?: string,
 }
 
@@ -21,7 +21,7 @@ export function CallToActionButton({
   width = "21.875rem",
   height = "6rem",
   arrowSize = 26,
-  mx="initial",
+  mx = "initial",
   title,
 }: CallToActionButtonProps) {
 
@@ -35,7 +35,7 @@ export function CallToActionButton({
   };
 
   return (
-    // <Link _hover={{ textDecor: "none" }} href={CallToActionButtonData.href} target="_blank">
+    <Link _hover={{ textDecor: "none" }} href={CallToActionButtonData.href} target="_blank">
       <Button
         w={width}
         h={height}
@@ -55,9 +55,9 @@ export function CallToActionButton({
           <Text fontSize={'1.25rem'} pb={'0.225rem'}>
             {title}
           </Text>
-            <ArrowRight size={arrowSize} weight="light" />
+          <ArrowRight size={arrowSize} weight="light" />
         </Flex>
       </Button>
-    // </Link>
+    </Link>
   );
 }
