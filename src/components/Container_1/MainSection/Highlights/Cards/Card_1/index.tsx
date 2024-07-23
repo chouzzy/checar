@@ -1,8 +1,9 @@
-import { Flex, Heading, Image, Text, useBreakpointValue } from "@chakra-ui/react";
+import { Flex, Heading, Image, Link, Text, useBreakpointValue } from "@chakra-ui/react";
 import { PiRoadHorizon } from "react-icons/pi";
 import { AirplaneTakeoff } from "phosphor-react";
 import { Card_1_Data } from "./data";
 import { CallToActionButton } from "../../../../../CallToActionButton";
+import { CallToActionButtonData } from "../../../../../CallToActionButton/data";
 
 export function Card_1() {
 
@@ -33,17 +34,17 @@ export function Card_1() {
             {/* LOGO */}
             <Flex mx={[4, 4, 4, 'initial', 'initial']} mt={4} >
                 <Image src="static/img/container_1/mainSection/header/logo.png" maxW={['180px', '180px', '180px', '391px', '391px']} />
-                
-                {isMobile? 
-                <Image
-                    src="static/img/container_1/mainSection/header/header-dots.png"
-                    position={'absolute'}
-                    top={-32}
-                    right={0}
-                    w={32}
-                />
-                :
-                ''
+
+                {isMobile ?
+                    <Image
+                        src="static/img/container_1/mainSection/header/header-dots.png"
+                        position={'absolute'}
+                        top={-32}
+                        right={0}
+                        w={32}
+                    />
+                    :
+                    ''
                 }
 
             </Flex>
@@ -102,12 +103,14 @@ export function Card_1() {
             <Flex gap={8} mx={[4, 4, 4, 'initial', 'initial']}>
                 <Flex flexDir={'column'}>
                     <Text fontWeight={500} fontSize={'1.25rem'}> Onde estamos</Text>
-                    <Text color='red'>Asa Sul - Brasília, DF</Text>
+                    <Text color='red.400'>Asa sul - CRS 514 Bloco C Loja 28</Text>
                 </Flex>
 
                 <Flex flexDir={'column'}>
                     <Text fontWeight={500} fontSize={'1.25rem'}> Fale conosco </Text>
-                    <Text color='red'>Asa Sul - Brasília, DF</Text>
+                    <Link _hover={{ textDecor: "none", color:"#1A1A1A", transition:"300ms" }} color='red.400' href={CallToActionButtonData.href} target="_blank">
+                        <Text >☎️ (61) 3345-7474</Text>
+                    </Link>
                 </Flex>
 
             </Flex>
