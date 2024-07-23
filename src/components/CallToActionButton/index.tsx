@@ -42,7 +42,7 @@ export function CallToActionButton({
         px={[2]}
         py={[3]}
         mx={mx}
-        _hover={{ bgColor: "dark.400" }}
+        _hover={{ bgColor: 'gray.400' }}
         boxShadow={"0 4 4 0 #000000"}
         borderRadius={0}
         bgColor={bgColor}

@@ -32,7 +32,7 @@ export function Card_1() {
         // pb={80} para ajustar altura
         >
             {/* LOGO */}
-            <Flex mx={[4, 4, 4, 'initial', 'initial']} mt={4} >
+            <Flex mx={[0, 4, 4, 'initial', 'initial']} mt={4} >
                 <Image src="static/img/container_1/mainSection/header/logo.png" maxW={['180px', '180px', '180px', '391px', '391px']} />
 
                 {isMobile ?
@@ -100,7 +100,7 @@ export function Card_1() {
             </Flex>
 
             {/* CONTATOS */}
-            <Flex gap={8} mx={[4, 4, 4, 'initial', 'initial']}>
+            <Flex gap={8} mx={[4, 4, 4, 'initial', 'initial']} flexDir={['column','column','row','row','row']}>
                 <Flex flexDir={'column'}>
                     <Text fontWeight={500} fontSize={'1.25rem'}> Onde estamos</Text>
                     <Text color='red.400'>Asa sul - CRS 514 Bloco C Loja 28</Text>

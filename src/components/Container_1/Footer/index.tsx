@@ -25,9 +25,9 @@ export function Footer() {
 
             position={'relative'}
 
-            px={[8, 0, 0, 20, 20]}
+            px={[0, 0, 0, 20, 20]}
             py={[8, 8, 8, 20, 20]}
-            gap={12}
+            gap={[4,4,12,12,12]}
         >
 
             
@@ -55,7 +55,7 @@ export function Footer() {
                 }
             </Flex>
 
-            <Flex flexDir={['column-reverse', 'column-reverse', 'column-reverse', 'column', 'column']} w='100%' gap={[4, 4, 4, 2, 2]}>
+            <Flex flexDir={['column-reverse', 'column-reverse', 'column-reverse', 'column', 'column']} w='100%' p={[4,4,0,0,0]} gap={[4, 4, 4, 2, 2]}>
                 <Flex flexDir={'column'} gap={6}>
 
                     <Flex>
