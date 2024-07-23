@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
                <meta property="og:type" content="website" />
                <meta property="og:title" content="Sua oficina mecânica especializada em Brasília" />
                <meta property="og:description" content="Dos reparos mais simples às soluções técnicas avançadas, estamos aqui para elevar o rendimento e a confiabilidade do seu automóvel." />
-               <meta property="og:image" content="https://www.checarsolucoes.com.br/static/img/logo.png" />
+               <meta property="og:image" content="https://www.checarsolucoes.com.br/static/img/share-image/logo.png" />
                <meta name="facebook-domain-verification" content="p9o4crdziw52naiebnk8mv7mj3s7pu" />
 
                {/* <!-- Twitter Meta Tags --> */}
@@ -24,7 +24,7 @@ export default class MyDocument extends Document {
                <meta property="twitter:url" content="https://www.checarsolucoes.com.br" />
                <meta name="twitter:title" content="Sua oficina mecânica especializada em Brasília" />
                <meta name="twitter:description" content="Dos reparos mais simples às soluções técnicas avançadas, estamos aqui para elevar o rendimento e a confiabilidade do seu automóvel." />
-               <meta name="twitter:image" content="https://www.checarsolucoes.com.br/static/img/logo.png" />
+               <meta name="twitter:image" content="https://www.checarsolucoes.com.br/static/img/share-image/logo.png" />
 
 
                <link rel="preconnect" href="https://fonts.googleapis.com" />
