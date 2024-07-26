@@ -109,7 +109,7 @@ export function Card_1() {
                 <Flex flexDir={'column'}>
                     <Text fontWeight={500} fontSize={'1.25rem'}> Fale conosco </Text>
                     <Link _hover={{ textDecor: "none", color:"#1A1A1A", transition:"300ms" }} color='red.400' href={CallToActionButtonData.href} target="_blank">
-                        <Text >☎️ (61) 3345-7474</Text>
+                        <Text >☎️ (61) 99987-6832</Text>
                     </Link>
                 </Flex>
 
