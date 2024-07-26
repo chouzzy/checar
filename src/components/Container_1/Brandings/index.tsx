@@ -36,7 +36,7 @@ export function Brandings() {
 
                 {isMobile ?
                     <>
-                        <CallToActionButton width={"100%"} title="Solicite um orçamento" />
+                        <CallToActionButton width={"100%"} title="Agende seu diagnóstico" />
 
                         <Flex flexDir={'row'} w='100%'>
 
@@ -117,7 +117,7 @@ export function Brandings() {
                     {isMobile ?
                         ''
                         :
-                        <CallToActionButton width={"350px"} title="Solicite um orçamento" />
+                        <CallToActionButton width={"350px"} title="Agende seu diagnóstico" />
                     }
                 </Flex>
             </Flex>

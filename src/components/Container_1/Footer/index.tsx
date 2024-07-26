@@ -51,7 +51,7 @@ export function Footer() {
                 {isMobile ?
                     ''
                     :
-                    <CallToActionButton width={"350px"} title="Solicite um orçamento" />
+                    <CallToActionButton width={"350px"} title="Agende seu diagnóstico" />
                 }
             </Flex>
 
@@ -66,7 +66,7 @@ export function Footer() {
                     </Flex>
 
                     {isMobile ?
-                        <CallToActionButton width={"350px"} title="Solicite um orçamento" />
+                        <CallToActionButton width={"350px"} title="Agende seu diagnóstico" />
                         :
                         ''
                     }

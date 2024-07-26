@@ -96,7 +96,7 @@ export function Card_1() {
 
             {/* CALL BUTTON */}
             <Flex mx={['auto', 'auto', 'auto', 'initial', 'initial']}>
-                <CallToActionButton title="Solicite um orçamento" />
+                <CallToActionButton title="Agende seu diagnóstico" />
             </Flex>
 
             {/* CONTATOS */}

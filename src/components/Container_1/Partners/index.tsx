@@ -36,7 +36,7 @@ export function Partners() {
 
                 {isMobile ?
                     <>
-                        <CallToActionButton width={"90%"} mx='auto' title="Solicite um orçamento" />
+                        <CallToActionButton width={"90%"} mx='auto' title="Agende seu diagnóstico" />
 
                         <Flex flexDir={'row'} mx='auto' gap={4} p={8}>
 
@@ -104,7 +104,7 @@ export function Partners() {
                     {isMobile ?
                         ''
                         :
-                        <CallToActionButton width={"350px"} title="Solicite um orçamento" />
+                        <CallToActionButton width={"350px"} title="Agende seu diagnóstico" />
                     }
                 </Flex>
             </Flex>

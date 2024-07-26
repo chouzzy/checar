@@ -7,6 +7,7 @@ import { Vantages } from "./Vantages";
 import { Feedbacks } from "./Feedbacks";
 import { Footer } from "./Footer";
 import { Credits } from "../Credits";
+import WhatsButton from "../WhatsButton";
 
 
 export function Container_1() {
@@ -53,6 +54,8 @@ export function Container_1() {
                 <Footer />
 
                 <Credits />
+
+                <WhatsButton/>
 
             </Flex>
         </Container>

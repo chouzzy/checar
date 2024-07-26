@@ -4,7 +4,7 @@ export const carouselFeedbacks = [
         name: 'Rafael Zoser',
         description: 'Oficina do Edson e Neiva, são competentes e cobram um preço justo',
         date: '2023',
-        image: '/static/img/container_1/feedbacks/personas/face-male-1.png',
+        image: '/static/img/container_1/feedbacks/personas/rafael-zoser.png',
         stars: 5
     },
     {
@@ -20,7 +20,7 @@ export const carouselFeedbacks = [
         name: 'Bruno Haack',
         description: 'Preços justos. Loja confiável.',
         date: '2022',
-        image: '/static/img/container_1/feedbacks/personas/face-male-1.png',
+        image: '/static/img/container_1/feedbacks/personas/bruno-haack.png',
         stars: 5
     },
     {
