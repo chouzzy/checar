@@ -51,15 +51,18 @@ export default class MyDocument extends Document {
                src="https://www.facebook.com/tr?id=1469014893670193&ev=PageView&noscript=1" />` }}
                   /> */}
                   {/* <!-- End Facebook Pixel Code --> */}
-                  {/* <script dangerouslySetInnerHTML={{
+                  <script dangerouslySetInnerHTML={{
                      __html: `
-               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-               'https://www.googletagmanager.com/gtm.js?id=GTM-NX33MD3C'+i+dl;f.parentNode.insertBefore(j,f);
-               })(window,document,'script','dataLayer','GTM-NX33MD3C');
+                     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16685303886"></script>
+                     <script>
+                     window.dataLayer = window.dataLayer || [];
+                     function gtag(){dataLayer.push(arguments);}
+                     gtag('js', new Date());
+
+                     gtag('config', 'AW-16685303886');
+                     </script>
                ` }}
-                  /> */}
+                  />
                </React.Fragment>
             </Head>
             <body

@@ -35,7 +35,7 @@ export function CallToActionButton({
   };
 
   return (
-    <Link _hover={{ textDecor: "none" }} href={CallToActionButtonData.href} target="_blank">
+    <Link _hover={{ textDecor: "none" }} href={CallToActionButtonData.href} target="_blank"  onClick={() => gtag('event', 'whatsapp_click')}>
       <Button
         w={width}
         h={height}
