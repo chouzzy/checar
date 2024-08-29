@@ -3,16 +3,16 @@ import { BsArrowRight } from "react-icons/bs"
 import { CallToActionButtonData } from "./data"
 import { ArrowRight } from "phosphor-react"
 
-interface CallToActionButtonProps {
-  bgColor?: string,
-  fontColor?: string,
-  bgCircleColor?: string,
-  width?: string,
-  height?: string,
-  arrowSize?: number,
-  mx?: string,
-  title?: string,
-}
+// interface CallToActionButtonProps {
+//   bgColor?: string,
+//   fontColor?: string,
+//   bgCircleColor?: string,
+//   width?: string,
+//   height?: string,
+//   arrowSize?: number,
+//   mx?: string,
+//   title?: string,
+// }
 
 export function CallToActionButton({
   bgColor = "red.400",
@@ -23,7 +23,7 @@ export function CallToActionButton({
   arrowSize = 26,
   mx = "initial",
   title,
-}: CallToActionButtonProps) {
+}) {
 
   const scrollToItalianForm = () => {
     const element = document.getElementById("#italianFormSection");

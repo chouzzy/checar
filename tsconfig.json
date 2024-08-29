@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/WhatsButton.jsx"  ],
+, "src/components/WhatsButton.jsx", "src/components/CallToActionButton/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]
