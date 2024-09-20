@@ -112,7 +112,7 @@ export function Brandings() {
                         pr={[0, 0, 0, 8, 8]}
                         borderLeft={['4px solid #EF4444', '4px solid #EF4444', '4px solid #EF4444', '4px solid #EF4444', '4px solid #EF4444']}
                     >
-                        Empresas que atendemos
+                        Marcas que atendemos
                     </Text>
                     {isMobile ?
                         ''
